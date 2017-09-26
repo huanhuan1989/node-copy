@@ -1,5 +1,5 @@
-# node-tuxedo
-node tuxedo cdn
+# node-copy
+node copy
 
 个人使用
 
