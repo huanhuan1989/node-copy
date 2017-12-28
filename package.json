@@ -1,0 +1,32 @@
+{
+  "name": "no-copy",
+  "version": "1.0.1",
+  "description": "copy file or dir",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "copy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huanhuan1989/node-copy.git"
+  },
+  "keywords": [
+    "copy"
+  ],
+  "author": "huanhuan",
+  "bugs": {
+    "email": "th.wanghuan@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huanhuan1989/node-copy/issues"
+  },
+  "homepage": "https://github.com/huanhuan1989/node-copy#readme",
+  "devDependencies": {
+    "glob": "^7.1.2",
+    "promise": "^8.0.1"
+  }
+}
