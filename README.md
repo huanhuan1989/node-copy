@@ -3,19 +3,25 @@ node copy
 
 个人使用
 
+## node-安装
+```javascript
+	
+	npm install no-copy
+
+```
 ## 使用方法
 
 ```javascript
 //引入文件
-const Copy = require('./lib/index.js')
+const Copy = require('no-copy')
 
 //实例化对象
 /**
  * 实例化对象
  */
 new Copy({
-	entry: '../output', //原始路径
-	dist: '../online', //输出路径
+	entry: './output', //原始路径
+  dist: './online', //输出路径
 	except:['.idea', '.vscode'],   //排除文件或文件夹， 可不写，默认为：['.idea', '.vscode', '.gitignore', 'node_modules', '.map']
 	copy: [  // 如果是整个文件夹，可直接忽略
 		{

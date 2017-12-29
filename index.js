@@ -1,2 +1,2 @@
-const Copy = require('./copy.js')
+const Copy = require('./lib/copy.js')
 module.exports = Copy
