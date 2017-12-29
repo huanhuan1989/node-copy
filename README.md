@@ -5,8 +5,8 @@ node copy
 
 ## node-安装
 ```javascript
-	
-	npm install no-copy
+
+npm install no-copy
 
 ```
 ## 使用方法
