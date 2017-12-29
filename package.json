@@ -1,6 +1,6 @@
 {
   "name": "no-copy",
-  "version": "1.0.3",
+  "version": "1.0.2",
   "description": "copy file or dir",
   "main": "index.js",
   "directories": {
